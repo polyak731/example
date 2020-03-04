@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Test task</string>
+
+    <!-- User list item layout-->
+    <string name="user_list_item_full_name_format">%s %s %s</string>
+
+    <!-- User details screen-->
+    <string name="user_details_full_name_format">@string/user_list_item_full_name_format</string>
+    <plurals name="user_details_age_format">
+        <item quantity="one">Date of birth: %s, %d year</item>
+        <item quantity="other">Date of birth: %s, %d years</item>
+    </plurals>
+    <string name="user_details_location_format">Location: %s, %s, %s</string>
+    <string name="user_details_no_user_error">No such user in database</string>
+</resources>
